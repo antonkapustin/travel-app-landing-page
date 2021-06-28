@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="price-section.css">
     <link rel="stylesheet" href="offer.css">
+    <link rel="stylesheet" href="stars-rate.css">
     <link rel="stylesheet" href="navigation.css">
     <title>Traveling.id</title>
 </head>
@@ -57,14 +58,31 @@
     <div class="offer">
         <img src="img/Eiffel Tower.jpg" alt="Eiffel Tower" class="offer__img">
         <div class="offer__text">
-            <h2 class="offer__subtitle">Exclusive Offer</h2>
+            <h2 class="offer__subtitle subtitle">Exclusive Offer</h2>
             <h1 class="offer__title title">Enjoy your vacation in Paris with the best facilities</h1>
-            <p class="offer__discription">
+            <p class="offer__discription discription">
                 Lorem ipsum is simply dummy text of printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
                 not only five centuries
             </p>
             <p class="offer__price">$ 3000 per night</p>
             <!-- <input type="range" class="offer__range"> -->
+            <div class="stars-rate">
+                <label>
+                    <input type="radio" name="star" value="5" class="star-rate__radio">
+                </label>
+                <label>
+                    <input type="radio" name="star" value="4" class="star-rate__radio">
+                </label>
+                <label>
+                    <input type="radio" name="star" value="3" class="star-rate__radio">
+                </label>
+                <label>
+                    <input type="radio" name="star" value='2' class="star-rate__radio">
+                </label>
+                <label>
+                    <input type="radio" name="star" value="1" class="star-rate__radio">
+                </label>
+            </div>
             <a href="/book" class="button">Book Now</a>
         </div>
     </div>

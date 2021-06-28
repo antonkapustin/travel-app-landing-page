@@ -1,0 +1,23 @@
+           .star-rate__radio {
+           display: none;
+       }
+       
+       .stars-rate:not(:checked)>label:before {
+           content: '★ ';
+       }
+       
+       .stars-rate>input:checked {
+           color: var(--color-orange);
+       }
+       
+       .stars-rate:not(:checked)>label:hover,
+       .stars-rate:not(:checked)>label:hover~label {
+           color: var(--color-orange);
+       }
+       
+       .stars-rate>input:checked+label:hover,
+       .stars-rate>input:checked+label:hover~label,
+       .stars-rate>input:checked~label:hover,
+       .stars-rate>input:checked~label:hover~label,
+       .stars-rate>label:hover~input:checked~label {
+           color: var(--color-orange);

@@ -20,7 +20,11 @@
 }
 
 .subtitle {
-    color: var(--color-blue);
+    color: var(--color-azure);
+}
+
+.discription {
+    color: var(--color-gray);
 }
 
 .button {

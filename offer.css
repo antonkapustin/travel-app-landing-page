@@ -4,6 +4,16 @@
 
 .offer__text {}
 
+.offer__subtitle {}
+
+.offer__title {}
+
+.offer__discription {}
+
+.offer__price {
+    color: var(--color-orange);
+}
+
 .offer__price {
     color: var(--color-orange);
 }
