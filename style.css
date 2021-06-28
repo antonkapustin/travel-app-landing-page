@@ -1,0 +1,61 @@
+ /* body {
+            background-image: url(BG.webp);
+            background-size: auto;
+            background-position: top center;
+            background-repeat: repeat-y;
+        } */
+ 
+ :root {
+     --color-blue: #0553BA;
+     --color-orange: #F06817;
+     --color-black: #223F4C;
+ }
+ 
+ .title {
+     font-family: 'Courier New', Courier, monospace;
+ }
+ 
+ .subtitle {
+     color: var(--color-blue);
+ }
+ 
+ .button {
+     border-radius: 500px;
+ }
+ 
+ .button_primary {
+     background-color: var(--color-blue);
+ }
+ 
+ .recomendation__label {
+     color: rgb(12, 129, 175);
+ }
+ 
+ .price-section {
+     border: 1px solid blue;
+ }
+ 
+ .price-section__title {
+     color: rgb(29, 161, 238)
+ }
+ 
+ .userpic {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+ }
+ 
+ .button__more,
+ .button__media {
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+ }
+ 
+ .button__more {
+     background-color: blue;
+ }
+ 
+ .button__media {
+     background-color: white;
+ }

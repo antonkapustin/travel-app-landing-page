@@ -1,0 +1,13 @@
+.offer {}
+
+.offer_img {}
+
+.offer__text {}
+
+.offer__price {
+    color: var(--color-orange);
+}
+
+.offer__rate {
+    background-color: var(--color-orange);
+}
