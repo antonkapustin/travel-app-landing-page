@@ -1,0 +1,28 @@
+.footer {}
+
+.footer-info {}
+
+.footer__logo {}
+
+.footer-info__discription {}
+
+.footer-info__address {
+    color: var(--color-gray);
+}
+
+.footer-section {}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list__title {
+    color: var(--color-blue);
+}
+
+.footer-list__item {}
+
+.footer-list__link {
+    color: var(--color-gray);
+    text-decoration: none;
+}
