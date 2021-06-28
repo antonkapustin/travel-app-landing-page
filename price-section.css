@@ -1,7 +1,26 @@
 .price-section {
-    border: 1px solid black;
+    border: 1px solid var(--color-azure);
+    margin: 50px;
+    border-radius: 50px;
+    margin: 10px 200px;
 }
 
 .price-section__title {
     color: var(--color-azure);
+    text-align: center;
+}
+
+.prise-section__price {
+    color: var(--color-gray);
+}
+
+.price-section__circle {
+    background-color: var(--color-azure);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.price-section__range {
+    margin: 0 100px 10px 100px;
 }
