@@ -2,8 +2,18 @@
 
 .about__text {}
 
-.about__title {}
+.about__title_blure {}
 
-.about__discription {}
+.about__title {
+    filter: blur(none);
+}
+
+.about__discription {
+    color: var(--color-gray);
+}
 
 .button-label {}
+
+.button__text {
+    color: var(--color-blue);
+}
