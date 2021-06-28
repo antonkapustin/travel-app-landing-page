@@ -1,0 +1,35 @@
+.feedback {
+    display: flex;
+}
+
+.feedback__text {
+    flex-direction: column;
+    margin: 20px;
+}
+
+.feedback__subtitle {}
+
+.feedback__title {}
+
+.feedback__discription {}
+
+.feedback__link {
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.feedback__slider-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: var(--color-white);
+}
+
+.feedback__slider {
+    margin: 20px;
+}
+
+.feedback__slider-button:hover {
+    background-color: var(--color-orange);
+}
