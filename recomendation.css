@@ -1,0 +1,29 @@
+.recomendation {}
+
+.recomendation__subtitle {}
+
+.recomendation__title {}
+
+.recomendacion__discription {}
+
+.recomendacion-list {}
+
+.recomendation-list__item {}
+
+.recomendation__card {
+    text-decoration: none;
+}
+
+.recomendation__img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.recomendation__name {
+    color: var(--color-blue)
+}
+
+.recomendation__price {
+    color: var(--color-orange)
+}
