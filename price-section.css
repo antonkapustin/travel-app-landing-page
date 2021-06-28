@@ -1,0 +1,7 @@
+.price-section {
+    border: 1px solid black;
+}
+
+.price-section__title {
+    color: var(--color-azure);
+}
